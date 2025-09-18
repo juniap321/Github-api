@@ -66,7 +66,7 @@ It allows you to fetch a GitHub user's profile and repositories, store them in a
 
 ### 1. Fetch & Save User + Repositories
 
-**POST** `/api/github/fetch-user/`
+**POST** `/fetch-user/`
 
 **Request Body:**
 
@@ -104,19 +104,19 @@ It allows you to fetch a GitHub user's profile and repositories, store them in a
 
 ### 2. Get User Details (from DB)
 
-**GET** `/api/github/user/<username>/`
+**GET** `/user/<username>/`
 
 **Example:**
-`/api/github/user/octocat/`
+`/user/octocat/`
 
 ---
 
 ### 3. Get Repositories (from DB)
 
-**GET** `/api/github/user/<username>/repos/`
+**GET** `/user/<username>/repos/`
 
 **Example:**
-`/api/github/user/octocat/repos/`
+`/user/octocat/repos/`
 
 ---
 
