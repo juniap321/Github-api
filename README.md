@@ -37,7 +37,7 @@ It allows you to fetch a GitHub user's profile and repositories, store them in a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/github-api-django.git
+   git clone https://github.com/juniap321/Github-api.git
    cd github
 ````
 
